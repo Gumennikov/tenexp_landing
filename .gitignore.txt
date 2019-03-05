@@ -1,0 +1,7 @@
+# Files to remove from Repository
+
+.idea/
+/test.html
+/License.pdf
+/Useful_Resources.pdf
+/README.txt

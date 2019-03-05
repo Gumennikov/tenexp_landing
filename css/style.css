@@ -1,0 +1,43 @@
+
+/*GENERAL FEATURES*/
+
+
+html,body,header, #intro{
+    height: 100%;
+}
+#intro{
+    background: url(../img/close-up-disjunct-farming-1437587-edited.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+.top-nav-collapse{
+    background-color: #24355c;
+}
+
+
+/*MEDIA*/
+
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse){
+        background-color: #24355c;
+    }
+}
+
+
+/*GOOGLE MAPS FEATURES*/
+
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
